@@ -1,0 +1,25 @@
+mkdir express-mongoose-api\controllers
+mkdir express-mongoose-api\models
+mkdir express-mongoose-api\routes
+cd express-mongoose-api
+type nul > .env
+type nul > app.js
+
+
+cd controllers
+type nul > userController.js
+type nul > postController.js
+type nul > commentController.js
+cd ..\models
+type nul > userModel.js
+type nul > postModel.js
+type nul > commentModel.js
+cd ..\routes
+type nul > userRoutes.js
+type nul > postRoutes.js
+type nul > commentRoutes.js
+cd ..
+
+
+MONGODB_URI=mongodb://localhost:27017/yourdbname
+PORT=3000
